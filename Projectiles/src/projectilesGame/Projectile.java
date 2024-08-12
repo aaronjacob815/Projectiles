@@ -1,5 +1,8 @@
 package projectilesGame;
 
+import java.awt.Color;
+import java.awt.Graphics;
+
 public class Projectile {
 	
 	public int x;
@@ -19,6 +22,9 @@ public class Projectile {
 	public void updatePos() {
 		x = x + dx;
 		y = y + dy;
+		
+		//temp edit
+		
 	}
 	
 	
