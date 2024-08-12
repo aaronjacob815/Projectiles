@@ -5,10 +5,12 @@ import java.awt.Graphics;
 
 public class Projectile {
 	
-	public int x;
-	public int y;
-	public int dx;
-	public int dy;
+	private int x;
+	private int y;
+	private int dx;
+	private int dy;
+	
+	public final int SIZE = 20;
 	
 	
 	public Projectile(int x, int y, int dx, int dy) {
@@ -25,6 +27,14 @@ public class Projectile {
 		
 		//temp edit
 		
+	}
+	
+	public int getX() {
+		return this.x;
+	}
+	
+	public int getY() {
+		return this.y;
 	}
 	
 	

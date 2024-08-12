@@ -8,7 +8,13 @@ import javax.swing.JPanel;
 
 public class Display extends JPanel {
 	
-	//temp edit
+	// Initialise display
+	public Display() {
+		this.setLayout(null);
+		this.setBackground(Color.WHITE);
+		
+		
+	}
 	
 	
 	
